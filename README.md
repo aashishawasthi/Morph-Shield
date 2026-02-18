@@ -82,9 +82,10 @@ opencv-python>=4.5.0
 👨‍💻 Author
 Your Name
 
-GitHub: @yourusername
+GitHub: @aashishawasthi
 
-Email: your.email@example.com
+Email: aashishawasthi098@gmail.com
 
 📄 License
+
 MIT License
