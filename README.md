@@ -2,7 +2,7 @@ Morph Shield: AI-Powered Deepfake Detection System
 Project Overview
 Morph Shield is a deep learning system that detects AI-generated images (deepfakes) using a Convolutional Neural Network trained on 80,000 images. It achieves 87.3% validation accuracy and runs entirely in Google Colab's free tier.
 
-✨ Key Features
+**Key Features**
 Accurate Detection: 87.3% validation accuracy on 16,000 test images
 
 User-Friendly: Simple upload-and-test interface with confidence scores
@@ -13,7 +13,7 @@ Batch Processing: Handles 80,000+ images with smart naming system
 
 Corrected Logic: Proper interpretation of prediction scores (>0.5 = REAL)
 
-🏗️ Model Architecture
+**Model Architecture**
 text
 Input (96x96x3)
     ↓
@@ -24,13 +24,13 @@ Conv2D (64 filters, 3x3) → MaxPooling → Dropout (0.25)
 Conv2D (128 filters, 3x3) → MaxPooling → Dropout (0.25)
     ↓
 Flatten → Dense (128) → Dropout (0.5) → Dense (1, sigmoid)
-📊 Performance Metrics
+**Performance Metrics**
 Metric	Value
 Validation Accuracy	87.3%
 Training Time	~22 minutes
 Inference Time	~200ms per image
 Model Size	~45 MB
-🚀 How to Use
+**How to Use**
 Training a New Model
 Open notebooks/Morph_Shield_Training.ipynb in Google Colab
 
